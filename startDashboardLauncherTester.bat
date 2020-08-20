@@ -1,6 +1,6 @@
 @echo off
 rem # PROJECT   : Elbfisch.org
-rem # MODULE    : launch.bat
+rem # MODULE    : startDashboardLauncherTester.bat
 rem # VERSION   : 1.0
 rem # DATE      : 10/5/2016
 rem # PURPOSE   : 
@@ -10,4 +10,3 @@ rem # CHANGES   : CH#n <Kuerzel> <datum> <Beschreibung>
 rem # LOG       : $Log$
 @echo on
 java -cp ".\\lib\\*;.\\cfg\\" org.jpac.fx.test.DashboardLauncherTester
-pause
